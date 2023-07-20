@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(187, 185, 209);
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    width: 690px;
+    border-radius: 10px;
+    box-shadow: 4px 7px 10px 3px rgb(0,0,0,0.4);
+
+}
+
+.wrapper {
+    border: 1px solid rgb(161, 160, 163);
+    border-radius: 6px;
+}
+.wrapper .text-input{
+    display: flex;
+    
+    border-bottom: 1px solid rgb(161, 160, 163);
+}
+.text-input .to-text {
+    border-radius: 0px;
+    border-left: 1px solid rgb(161, 160, 163);
+}
+.text-input textarea {
+   height: 240px;
+    width: 100%;
+    border: none
+   
+}
+
+.text-input textarea {
+    outline: none;
+    resize: none;
+    background: none;
+    font-size: 19px;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+.control, li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.control {
+    list-style-type: none;
+    padding: 12px 15px;
+    background-color: rgb(240, 237, 243);
+}
+
+.control .icons i {
+    color: darkgray;
+    width: 50px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block
+}
+.control .icons i:hover {
+    color: rgb(22, 22, 22);
+    
+}
+.container button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: rgb(204, 69, 76);
+    border: none;
+    color: rgb(253, 253, 251);
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.container button:hover {
+    background-color: rgb(63, 71, 153);;
+}
+#lastchild{
+    margin-right: 34px;
+   
+}
+#right  {
+    margin-right: -35px;
+    
+
+}
+.control select {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid rgb(174, 174, 175);
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.exchange{
+    color: darkgray;
+}
+.exchange:hover{
+    cursor: pointer;
+    color: black;
+
+}
+
+@media screen and (max-width: 576px){
+
+.container{
+    width: 500px;
+   
+    
+}
+.wrapper .text-input{
+    display: block;
+    border-top: 1px solid rgb(161, 160, 163);
+    
+
+}
+.text-input .to-text {
+    
+    border-top: 1px solid rgb(161, 160, 163);
+}
+.exchange {
+    font-size: 10px;
+    margin: 0px 10px;
+}
+
+    
+}
+@media screen and (max-width: 576px){
+    .control .icons i{
+        width: 20px;
+        margin-right: 10px;
+    }
+    
+}
+@media screen and (max-width: 576px){
+    .control select{
+        width: 50px;
+        padding: 0px;
+        font-size: 10px;
+       
+        
+    }
+    
+}
+@media screen and (max-width: 576px) {
+    #right{
+        margin-right: 0px;
+    }
+    
+}
+
+
