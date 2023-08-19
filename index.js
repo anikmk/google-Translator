@@ -20,7 +20,7 @@ const countreis = {
    AZ: 'Azerbaijan',
    BS: 'Bahamas',
    BH: 'Bahrain',
-   "bn-IN": "Bangladesh",
+   "bn-IN": "Bangla",
    BB: 'Barbados',
    BY: 'Belarus',
    BE: 'Belgium',
